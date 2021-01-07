@@ -1,0 +1,3 @@
+model_checkpoint_path: "."
+all_model_checkpoint_paths: "..\\..\\..\\Ladder_Model\\L\\policy"
+all_model_checkpoint_paths: "."

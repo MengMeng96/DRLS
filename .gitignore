@@ -1,0 +1,4 @@
+.idea
+resource/*
+src/__pycache__/*
+resource.zip

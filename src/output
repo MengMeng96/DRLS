@@ -1,0 +1,47 @@
+nohup: ignoring input
+2020-08-14 13:06:57.983332: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-08-14 13:06:58.096429: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-08-14 13:06:58.096807: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x3fdaf50 executing computations on platform CUDA. Devices:
+2020-08-14 13:06:58.096843: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla P4, Compute Capability 6.1
+2020-08-14 13:06:58.099184: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095070000 Hz
+2020-08-14 13:06:58.099408: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x2455b80 executing computations on platform Host. Devices:
+2020-08-14 13:06:58.099428: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2020-08-14 13:06:58.099520: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-08-14 13:06:58.099530: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      
+WARNING:tensorflow:From /home/ubuntu/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From Multiple_Test.py:149: calling reduce_min_v1 (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From Multiple_Test.py:151: calling reduce_max_v1 (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From Multiple_Test.py:153: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+WARNING:tensorflow:From /home/ubuntu/.local/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /home/ubuntu/.local/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:102: div (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Deprecated in favor of operator or tf.math.divide.
+WARNING:tensorflow:From /home/ubuntu/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+input_dim 8
+1.0 0.998046875 0.9999651227678571
+No time slot -5.0
+../jhy/data/3_64_128/ 0 0.9999651227678571
+1.0 0.9921875 0.999768708881579
+No time slot -5.0
+../jhy/data/3_128_256/ 1 0.999768708881579
+1.0 0.99609375 0.9997624577702703
+No time slot -5.0
+../jhy/data/3_256_512/ 2 0.9997624577702703
+Visited edge or Not adjacent edge -15.333333333333332
+../jhy/data/3_512_1024/ 1822 0.6609216638513513
+Visited edge or Not adjacent edge -16.333333333333336
+../jhy/data/3_1024_2048/ 4756 0.335460574127907
+Visited edge or Not adjacent edge -17.666666666666664
+../jhy/data/3_2048_4096/ 2752 0.553886217948718

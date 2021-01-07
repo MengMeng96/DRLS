@@ -1,0 +1,6 @@
+model_checkpoint_path: "."
+all_model_checkpoint_paths: "..\\..\\A33\\policy"
+all_model_checkpoint_paths: "..\\..\\A34\\policy"
+all_model_checkpoint_paths: "..\\..\\A35\\policy"
+all_model_checkpoint_paths: "..\\..\\A\\policy"
+all_model_checkpoint_paths: "."
